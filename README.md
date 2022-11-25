@@ -26,7 +26,6 @@ pip install -r requirements.txt
 Для корректной работы модуля необходимы следующие переменные окружения:
 
 ```Python
-SECRET_KEY='Django SECRET KEY'
 DB_ENGINE='Ссылка на БД'
 DB_HOST='Сервер базы данных'
 DB_PORT='Порт сервера БД'
@@ -39,7 +38,7 @@ DB_PASSWORD='Пароль пользователя БД'
 ### Пример запуска
 
 ```
-python manage.py runserver 127.0.0.1:8000
+python manage.py runserver
 ``` 
 Starting development server at http://127.0.0.1:8000/
 
